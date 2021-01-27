@@ -1,0 +1,168 @@
+/* fac2f1 */
+
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	background-color: #fac2f1 !important;
+}
+
+* {	
+	font-family:cursive;
+	font-size: 22px;
+}
+
+.logo {
+	height: 70px;
+}
+
+.navbar-dark {
+	height: 80px;
+	background-color: #ff44e0 !important;
+}
+
+.nav-link {
+	color: white !important;
+	margin-left: 100px;
+}
+
+.nav-login {
+	color: white !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
+.nav-logout-btn {
+	margin-left: 100px;
+}
+
+.main {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	margin: 100px 0;
+	color: #770063 !important;
+}
+
+.main__center {
+	align-items: center;
+	padding: 50px 0;
+	text-align: center;
+}
+
+.main__form {
+	width: 80%;
+	align-self: center;
+}
+
+.col-form-label {
+	width: 40%;
+}
+
+.form-control {
+	border-radius: 0;
+}
+
+.btn-primary {
+	margin: 20px 0;
+	background-color: #ff44e0;
+	border: 1px solid #ff44e0;
+	border-radius: 0;
+}
+
+.btn-primary:hover {
+	background-color: #ff44e0;
+	border: 1px solid #770063;
+}
+
+.modal-title {
+	margin-bottom: 20px;
+}
+
+.text-muted {
+	width: 80%;
+	color: #af6fa5 !important;
+}
+
+.main__form-link {
+	margin-top: 15px;
+	align-self: center;
+}
+
+.footer {
+	height: 80px;
+	background-color: #ff44e0 !important;
+	color: white !important;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.footer-item a {
+	color: white !important;
+}
+/* items list */
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list-item {
+	margin-bottom: 30px;
+}
+
+.list-item-text {
+	max-height: 100px;
+	overflow: hidden;
+}
+.title-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.page-item-date {
+	color: gray;
+}
+.session-item {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.session-item h6 {
+	margin-bottom: 0;
+}
+.link-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+.link-item h5 {
+	margin-bottom: 0;
+}
+.link-item_label {
+	max-width: 60%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: row;
+}
+
+@media screen and (max-width: 991.98px){
+	.nav-login {
+		justify-content: flex-start;
+		margin: 0;
+	}
+	.main__form {
+		width: 100%;
+	}
+}
+
